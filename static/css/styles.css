@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: url('WorkSans-Italic-500.woff2') format('woff2');
+  }
+
+*, *::before, *::after{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-btn-lg {
+    background-color: white;
+    color: #000; /* Black color for text, adjust as needed */
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    padding: 20px 30px; /* Adjust padding as needed */
+    border: 1px solid transparent; /* Remove button border if not needed */
+    border-radius: 5px; /* Add border radius for button */
+    text-decoration: none;
+    outline: none;
+}
+
+/* Hover and Focus Styles (Optional) */
+.nav-btn-lg:hover,
+.nav-btn-lg:focus {
+    background-color: #f0f0f0; /* Change background color on hover or focus */
+    color: #000; /* Change text color on hover or focus */
+    text-decoration: none; /* Remove underline on hover or focus */
+    outline: none; /* Remove focus outline */
+}
