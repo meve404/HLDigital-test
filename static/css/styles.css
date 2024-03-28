@@ -31,8 +31,7 @@
 }
 
 
-.nav-btn-lg:hover,
-.nav-btn-lg:focus {
+.nav-btn-lg:hover{
     background-color: #f0f0f0;
     color: #000;
     text-decoration: none;
@@ -43,4 +42,72 @@
     width: 1850px; 
     margin: 0 auto;
     padding: 15px 22px;
+}
+
+.nav-section{
+    padding-top: 110px;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.column-left {
+    flex: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-right {
+    flex: 55%;
+}
+
+.column-right img {
+    width: 100%;
+}
+
+.fundraise-bg{
+    background-color: #005740;
+}
+
+.fundraise-text-color{
+    color: #f0f0f0;
+}
+
+.big-text{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vertical-stack > * {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.big-btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 60px;
+    border: none;
+    background-color: #F4A900;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+}
+
+.big-btn:hover {
+    background-color: #fcc440;
+    color: #000;
+    text-decoration: none;
+    outline: none;
 }
