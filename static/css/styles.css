@@ -9,22 +9,38 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.bg-nav{
+    background-color: #000;
+}
+
+.nav-item .nav-link {
+    padding: 20px 0px;
+}
+
 .nav-btn-lg {
     background-color: white;
-    color: #000; /* Black color for text, adjust as needed */
-    font-size: 0.9rem; /* Adjust the font size as needed */
-    padding: 20px 30px; /* Adjust padding as needed */
-    border: 1px solid transparent; /* Remove button border if not needed */
-    border-radius: 5px; /* Add border radius for button */
+    color: #000;
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 5px; 
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+}
+
+
+.nav-btn-lg:hover,
+.nav-btn-lg:focus {
+    background-color: #f0f0f0;
+    color: #000;
     text-decoration: none;
     outline: none;
 }
 
-/* Hover and Focus Styles (Optional) */
-.nav-btn-lg:hover,
-.nav-btn-lg:focus {
-    background-color: #f0f0f0; /* Change background color on hover or focus */
-    color: #000; /* Change text color on hover or focus */
-    text-decoration: none; /* Remove underline on hover or focus */
-    outline: none; /* Remove focus outline */
+.custom-container {
+    width: 1850px; 
+    margin: 0 auto;
+    padding: 15px 22px;
 }
