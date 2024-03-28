@@ -80,6 +80,10 @@
     font-weight: bold;
 }
 
+.green-text{
+    color: #005740;
+}
+
 .vertical-stack {
     display: flex;
     flex-direction: column;
