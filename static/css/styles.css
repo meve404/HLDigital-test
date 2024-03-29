@@ -120,6 +120,25 @@
     outline: none;
 }
 
+.big-btn-white{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 50px;
+    border: 2px solid #000;
+    background-color: None;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+}
+
+.big-btn-white:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+
 .carousel .carousel-indicators button {
     position: relative;
     bottom: -70px;
@@ -128,4 +147,9 @@
     border-radius: 100%;
     background-color: #7C7C7C;
     margin-right: 7px;
+}
+
+.align-col-center > [class^="col-"] {
+    display: flex;
+    align-items: center;
 }
