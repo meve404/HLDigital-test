@@ -75,6 +75,10 @@
     color: #f0f0f0;
 }
 
+.medium-text{
+    font-size: 1.4rem;
+}
+
 .big-text{
     font-size: 4.5rem;
     font-weight: bold;
