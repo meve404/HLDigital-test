@@ -119,3 +119,13 @@
     text-decoration: none;
     outline: none;
 }
+
+.carousel .carousel-indicators button {
+    position: relative;
+    bottom: -70px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #7C7C7C;
+    margin-right: 7px;
+}
