@@ -9,6 +9,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.navbar {
+    margin-top: 50px; /* Adjust as needed to create space for the banner */
+}
+
 .bg-nav{
     background-color: #000;
 }
@@ -45,7 +49,7 @@
 }
 
 .nav-section{
-    padding-top: 110px;
+    padding-top: 160px;
 }
 
 .content-wrapper {
